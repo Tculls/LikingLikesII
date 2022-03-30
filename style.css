@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;   
+}
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+.nav{
+    background-color: black;
+    height: 50px;
+    margin: 0px 40px 0px 40px;
+    padding-top: 10px;
+}
+.maincontent{
+    display: flex;
+    justify-content: center;
+
+}
+header{
+    color: whitesmoke;
+    margin: 0px 20px 0px 20px;
+    font-size: 30px;
+}
+#feed{
+    display:  flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.profile{
+   margin-top: 40px;
+}
+.userbox{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+img{
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+}
+a{
+    margin: 20px;
+}
+.textbox{
+    margin: 40px;
+    border: 2px solid black;
+    width: 400px;
+}
+h2{
+    margin: 20px;
+}
+p{
+    margin: 20px;
+}
+.user-likebtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#username{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+#like{
+    background-color: yellow;
+    margin: 20px;
+    width: 60px;
+}
+#counter{
+    margin: 20px;
+}
+button{
+    box-shadow: 5px 5px 5px rgb(32, 30, 32);
+    border-radius: 6px;
+}
+.column1{
+    display: flex;
+}
+.column2{
+    flex-direction: column;
+}

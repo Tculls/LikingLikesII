@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Liking Likes II</title>
+</head>
+
+<body>
+    <!-- Container -->
+    <div class="container">
+        <!-- TOP BAR -->
+        <div class="nav">
+            <header>Network</header>
+        </div>
+        <!-- H1 HEADER -->
+        <h1 id="feed">Your Feed</h1>
+        <!-- Column1 -->
+<div class="maincontent">
+    <div class="column1">
+        <!-- profile -->
+        <div class="profile">
+            <div class="userbox">
+                <img src="user-circle.png" alt="profilephoto">
+                <a href="#">Add an Avatar</a>
+                <h2>James Doe</h2>
+            </div>
+        </div>
+    </div>
+     <!-- Column 2 -->
+     <div class="column2">
+        <!-- Neil M post -->
+        <div class="neil">
+            <div class="textbox">
+                <div class="user-likebtn">
+                    <p id="username">Neil M</p>
+                    <label id="counter1">0 like(s)</label>
+                    <button id="like" onclick="likeStatus1()">Like</button>
+                </div>
+                <p>I just set up this new discord bot, let me know what you all think.</p>
+            </div>
+        </div>
+        <!-- Nichole K post -->
+        <div class="nichole">
+            <div class="textbox">
+                <div class="user-likebtn">
+                    <p id="username">Nichole K</p>
+                    <label id="counter2">0 like(s)</label>
+                    <button id="like" onclick="likeStatus2()">Like</button>
+                </div>
+                <p>Just finished my next comic, check it out.</p>
+            </div>
+        </div>
+        <!-- Jim R post -->
+        <div class="jim">
+            <div class="textbox">
+                <div class="user-likebtn">
+                    <p id="username">Jim R</p>
+                    <label id="counter3">0 like(s)</label>
+                    <button id="like" onclick="likeStatus3()">Like</button>
+                </div>
+                <p>I can't stop listening to the new album. Who else is liking it?</p>
+            </div>
+        </div>
+    </div>
+</div> 
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

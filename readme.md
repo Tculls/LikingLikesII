@@ -1,0 +1,1 @@
+Second Half of the Liking Likes Web fundamentals assignment
